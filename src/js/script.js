@@ -1,5 +1,4 @@
 "use strict";
-// import '/src/style/style.scss';
 
 //=============== burger menu ==========================-------->
 const burger = document.querySelector(".burger");
@@ -26,14 +25,6 @@ for (let link of links) {
     });
   });
 }
-//=============== foto ==========================-------->
-const foto = document.querySelector(".main-foto__img");
-const fotoWrapp = document.querySelector(".foto-wrapp");
-
-foto.addEventListener("click", () => {
-  fotoWrapp.classList.toggle("full");
-  foto.classList.toggle("full-foto");
-});
 
 //=============== about ==========================-------->
 
